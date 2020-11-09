@@ -66,7 +66,7 @@ ul, li {
 	height: 50px;
 	display: inline-block;
 	position: relative;
-	top: 10px;
+	top: 0px;
 }
 .toggle-menu i {
 	position: absolute;
@@ -125,7 +125,7 @@ nav li {
 nav li a {
 	font-size: 2em;
 	display: block;
-	padding: 30px;
+	padding: 20px;
 	text-align: center;
 	transition: background .3s;
 }
@@ -191,7 +191,7 @@ p{
 }
 
 .sec1 .card{
-    display: flex;
+   
     padding: 1em !important;
 }
 
@@ -201,6 +201,8 @@ p{
  }
  .styles-card .card{
     width: 18em;
+    display: flex;
+    justify-content: center;
  }
 
 
@@ -246,9 +248,20 @@ p{
         width:7em;
     }
 
-    .styles-card .card{
-        padding:0 ;
+     .styles-card .card{
+       
         margin: 0.5em;
+    }
+    .sec1 .styles-card .card{
+        padding:0 ;
+    }
+
+    .header-top{
+        height: 40px;
+    }
+
+    html{
+        font-size: 56%;
     }
 }
 
