@@ -8,12 +8,12 @@ $header_top.find('a').on('click', function() {
 });
  
 $('#fullpage').fullpage({
-  sectionsColor: ['#3dcfa1', '#348899', '#ff8b20', '#ff5757', '#ffd03c'],
+  sectionsColor: ['#fff', '#ff5757', '#ff8b20', '#ff5757', '#ffd03c', '#63ACE5' ,'#ff5757' ],
   sectionSelector: '.vertical-scrolling',
   navigation: true,
   slidesNavigation: true,
   controlArrows: false,
-  anchors: ['firstSection', 'secondSection', 'thirdSection', 'fourthSection', 'fifthSection'],
+  anchors: ['firstSection', 'secondSection', 'thirdSection', 'fourthSection', 'fifthSection' ,'sixthSection','seventhSection'],
   menu: '#menu',
  
   afterLoad: function(anchorLink, index) {
@@ -30,5 +30,17 @@ $('#fullpage').fullpage({
     }
   },
  
- 
 });
+
+document.addEventListener("DOMContentLoaded", function(event) {
+    // your code goes here
+    lightGallery(document.getElementById('aniimated-thumbnials'), {
+        thumbnail:true
+    }); 
+
+    // $("html").css("font-size","100%");
+    window.dispatchEvent(new Event('resize'));
+
+}, false);
+
+

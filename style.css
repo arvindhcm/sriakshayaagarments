@@ -1,5 +1,7 @@
 /** Code By Webdevtrick ( https://webdevtrick.com ) **/
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700);
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -7,7 +9,9 @@
 	text-transform: uppercase;
 }
 html {
-	font-size: 62.5%;
+    
+   
+    font-size: 65%;
 }
 body {
 	color: black;
@@ -56,14 +60,7 @@ ul, li {
 	z-index: 12;
 	box-sizing: border-box;
 }
-h1 {
-	line-height: 70px;
-	height: 70px;
-}
-h1 a {
-	display: block;
-	padding: 0 10px;
-}
+
 .toggle-menu {
 	width: 50px;
 	height: 50px;
@@ -142,14 +139,7 @@ nav li a:hover {
 section { 
 	text-align: center;
 }
-h2 {
-	font-size: 4em;
-	margin-bottom: 20px;
-}
-h3 {
-	font-weight: 300;
-	font-size: 2.8em;
-}
+
 #fp-nav ul li a span, 
 .fp-slidesNav ul li a span {
 	background: white;
@@ -168,7 +158,52 @@ h3 {
 	box-sizing: border-box;
 	border: 2px solid #212121;
 }
- 
+
+
+
+
+#aniimated-thumbnials img{
+    width:10em;
+    margin-right: 2em;
+    margin-bottom:2em;
+}
+
+.card{
+    background: #fff;
+    border-radius: 5px;
+
+    padding: 0.5em;
+    margin:2em;
+}
+
+.sec1{
+    background: url(img/tshirts.jpg) 0% 0% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec2{
+    background-color: rgb(255, 87, 87) !important;
+}
+p{
+    font-weight: bold;
+
+}
+
+.sec1 .card{
+    display: flex;
+    padding: 1em !important;
+}
+
+ .styles-card{
+    display:flex;justify-content: center; flex-wrap:wrap;
+
+ }
+ .styles-card .card{
+    width: 18em;
+ }
+
+
 @media screen and (max-width: 767px) {
 	nav ul {
 		flex-direction: column;
@@ -185,18 +220,38 @@ h3 {
   .scroll-icon {
     display: none;
   }
+
+
 }
- 
-@media screen and (max-width: 400px) {
-  html {
-    font-size: 50%;
-  }
-  
+@media only screen and (min-device-width: 480px){
+
   .open-menu ~ nav {
 		padding: 20px 0;
 	}
  
 	nav li a {
 		padding: 3px;
-	}
+    }
+
+    html{
+      font-size: 100%;
+    }
+
 }
+
+@media only screen and (max-device-width: 480px){
+
+        
+    #aniimated-thumbnials img{
+        width:7em;
+    }
+
+    .styles-card .card{
+        padding:0 ;
+        margin: 0.5em;
+    }
+}
+
+
+
+

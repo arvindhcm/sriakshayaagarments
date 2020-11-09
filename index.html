@@ -1,77 +1,295 @@
 <!--Code By Webdevtrick ( https://webdevtrick.com )-->
-<html lang="en" >
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Full Page Scrolling | Webdevtrick.com</title>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css'>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Full Page Scrolling | Webdevtrick.com</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css'>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> -->
+
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
- 
-<header>
-  <div class="header-top clearfix">
-    <h1 class="l-left"><a href="#firstSection"> SRI AKSHAYAA GARMENTS </a></h1>
-    <a class="l-right toggle-menu" href="#">
-      <i></i>
-      <i></i>
-      <i></i>
-    </a>
-  </div>
- 
-  <nav class="hide">
-    <ul id="menu">
-      <li data-menuanchor="firstSection">
-        <a href="#firstSection" title="First Section">First Section
-        </a>
-      </li>
-      <li data-menuanchor="secondSection">
-        <a href="#secondSection" title="Second Section">Second Section</a>
-      </li>
-      <li data-menuanchor="thirdSection">
-        <a href="#thirdSection" title="Second Section">Third Section</a>
-      </li>
-      <li data-menuanchor="fourthSection">
-        <a href="#fourthSection" title="Fourth Section">Fourth Section</a>
-      </li>
-      <li data-menuanchor="fifthSection">
-        <a href="#fifthSection" title="First Slide">Fifth Section</a>
-      </li>
-    </ul>
-  </nav>
-</header>
- 
-<div id="fullpage">
-  <section class="vertical-scrolling">
-    <!-- <h2>#1</h2> -->
-    <h3>This is the first section
-        &quot;Fashion is the armor to survive the reality of everyday life.&quot; —Bill Cunningham
 
-    </h3>
-  </section>
-  <section class="vertical-scrolling">
-    <h2>#2</h2>
-    <h3>This is the second section</h3>
-  </section>
-  <section class="vertical-scrolling">
-    <h2>#3</h2>
-    <h3>This is the third section</h3>
-  </section>
-  <section class="vertical-scrolling">
-    <h2>#4</h2> 
-    <h3>This is the fourth section</h3>
-  </section>
-  <section class="vertical-scrolling">
-    <h2>#5</h2> 
-    <h3>This is the fourth section</h3>
-  </section>
-</div>
- 
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.10.0/js/lightgallery.min.js'></script>
+    <header>
+        <div class="header-top clearfix">
+            <h1 class="l-left"><a href="#firstSection"> SRI AKSHAYAA GARMENTS </a></h1>
+            <a class="l-right toggle-menu" href="#">
+                <i></i>
+                <i></i>
+                <i></i>
+            </a>
+        </div>
+
+        <nav class="hide">
+            <ul id="menu">
+                <li data-menuanchor="firstSection">
+                    <a href="#firstSection" title="First Section"> Home
+                    </a>
+                </li>
+                <li data-menuanchor="secondSection">
+                    <a href="#secondSection" title="Second Section">  Gallery </a>
+                </li>
+                <li data-menuanchor="thirdSection">
+                    <a href="#thirdSection" title="Second Section"> About Us  </a>
+                </li>
+                <li data-menuanchor="fourthSection">
+                    <a href="#fourthSection" title="Fourth Section">Collections  </a>
+                </li>
+                <li data-menuanchor="fifthSection">
+                    <a href="#fifthSection" title="First Slide"> Why India </a>
+                </li>
+                <li data-menuanchor="sixthSection">
+                    <a href="#sixthSection" title="First Slide"> Why Tirupur </a>
+                </li>
+                <li data-menuanchor="seventhSection">
+                    <a href="#seventhSection" title="First Slide"> Contact </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="fullpage">
+        <section class="vertical-scrolling  sec1">
+            <!-- <h2>#1</h2> -->
+
+            <h1 style="color:#fff;margin-bottom:2em">
+                    SRI AKSHAYAA GARMENTS
+            </h1>
+
+            <div class="styles-card">
+                <div class="card" >
+                    <h2>  Team Jersey  </h2>
+                </div>
+                <div class="card" >
+                    <h2>  Sports Uniform </h2>
+                </div>
+                <div class="card" >
+                    <h2>  Corporate Tshirt </h2>
+                </div>
+                <div class="card" >
+                    <h2>  Promotional Garments </h2>
+                </div>
+            </div>
+
+        
+            <h2 style="color:#fff;margin-top:2em">
+                &quot;Fashion is the armor to survive the reality of everyday life.&quot; —Bill Cunningham
+
+            </h2>
+            <!-- <img style="width:10em" src="img/tshirts.jpg" /> -->
+        </section>
+        <section class="vertical-scrolling sec2">
+            <h2 style="margin-bottom:2em;color:#fff">Gallery </h2>
+            <h3>
 
 
-<script  src="function.js"></script>
- 
+                <div id="aniimated-thumbnials">
+                    <a href="img/01.jpg">
+                        <img src="img/01.jpg" />
+                    </a>
+                    <a href="img/03.jpg">
+                        <img src="img/03.jpg" />
+                    </a>
+                    <a href="img/04.jpg">
+                        <img src="img/04.jpg" />
+                    </a>
+                    <a href="img/05.jpg">
+                        <img src="img/05.jpg" />
+                    </a>
+                    <a href="img/06.jpg">
+                        <img src="img/06.jpg" />
+                    </a>
+                    <a href="img/07.jpg">
+                        <img src="img/07.jpg" />
+                    </a>
+                    <a href="img/08.jpg">
+                        <img src="img/08.jpg" />
+                    </a>
+                    <a href="img/09.jpg">
+                        <img src="img/09.jpg" />
+                    </a>
+                    <a href="img/10.jpg">
+                        <img src="img/10.jpg" />
+                    </a>
+                    <a href="img/11.jpg">
+                        <img src="img/11.jpg" />
+                    </a>
+                    <a href="img/12.jpg">
+                        <img src="img/12.jpg" />
+                    </a>
+                    <a href="img/13.jpg">
+                        <img src="img/13.jpg" />
+                    </a>
+
+                </div>
+
+
+            </h3>
+        </section>
+        <section class="vertical-scrolling" >
+            <h1 style="margin-bottom: 2em;color: #fff;">About Us </h1>
+          
+
+                <p style="padding:2em 5em ;text-align: left;">
+                    Akshaya Garments is owned and managed by a group of experienced workers holding an experience
+                    of around 19 years in the clothing industry. It has set its foot in 2014 with a wide range of
+                    products
+                    and services to cater to the varied requirements of its customers. This well-known establishment
+                    acts
+                    as a one-stop destination for garments servicing both domestic and international customers.
+                </p>
+
+               
+                <p style="padding:2em 5em ;text-align: left;">
+                    The belief that customer satisfaction is as important as their products and services, has helped
+                    this
+                    establishment garner a vast base of customers, which continues to grow by the day which evidently
+                    shows that the firm is customer friendly. Rich textures and delicate fabrics take the customers by
+                    storm with so many varieties. Promising best quality clothes to the buyers with the best price in
+                    the
+                    market and timely delivery of goods, the garment store has been able to acquire a strong reputation
+                    over the years.
+                    <br>
+                </p>
+                
+                <p style="padding:2em 5em;text-align: left;">
+                    “Akshayaa Garments” used to provide Printing, Embroidery along with Unisex
+                    Corporate T-Shirts, School-College Uniform T-Shirts, Hotel Uniform T-Shirts, Hospital Uniform T-
+                    Shirts, Promotional &amp; Gift T-Shirts, and Events T-Shirts, Girls Uniform Overcoat, Skirt, Shorts,
+                    Night
+                    Wears etc.
+
+                </p>
+
+
+
+
+      
+        </section>
+        <section class="vertical-scrolling">
+            <h2 style="margin-bottom: 2em;color: #fff;"> Collections </h2>
+
+               
+            <div class="styles-card">
+                <div class="card" >
+                    <h1>  Polo Collar </h1>
+                </div>
+                <div class="card" >
+                    <h1>  The Crew Neck </h1>
+                </div>
+                <div class="card" >
+                    <h1>  The V Neck </h1>
+                </div><div class="card" >
+                    <h1> The Henley (Y Neck) </h1>
+                </div><div class="card" >
+                    <h1>  The Hooded </h1>
+                </div><div class="card" >
+                    <h1> The Scoop Neck </h1>
+                </div>
+                <div class="card" >
+                    <h1>Raglan Sleeve </h1>
+                </div>
+                <div class="card" >
+                    <h1> Sleeveless </h1>
+                </div>
+                <div class="card" >
+                    <h1> Cap sleeves</h1>
+                </div>
+                <div class="card" >
+                    <h1> Pocket Style </h1>
+                </div>
+            </div>
+    
+        </section>
+
+        <section class="vertical-scrolling">
+            <h2 style="margin-bottom: 2em;color: #fff;"> Why India </h2>
+            <p style="padding:2em 5em;text-align: left;" >
+                
+Since 1990’s the business environment of india has changed the economy is exposed to a greater degree of
+external competition. More liberal trade and investment policies and improvement in the balance of
+payments and foreign exchange positions. The liberalisation has stimulated a wave of modernisation and
+development within the country’s clothing industry too.The textile and garments industry currently accounts
+for about 20% of india’s total exports.
+            </p>
+            <p style="padding:2em 5em;text-align: left;" >
+India is a Major Sourcing hub for ready made garments for global companies. Lot of Major local exports
+players are located in tirupur.If needThe Apparel sectoris expected to expand even further following the
+expiration of the global textile and apparel industry. India expects to Capitalize on its Strong Multi-fibre base,
+large production of cotton, Low cost man power and presence across the entire value chain of textile and
+apparel industry.It is also has focus on value added products the challenge is to consolidate the industry.
+Which will result in economics of scale and resource becoming available for capital investment with which to
+upgrade plants and Machinery.
+
+            </p>
+
+        </section>
+
+
+        <section class="vertical-scrolling">
+            <h2 style="margin-bottom: 2em;color: #fff;"> Why Tirupur </h2>
+            <p style="padding:2em 5em; text-align: left;">
+                Tirupur is an important trade centre of india which is famous for knitted garments wears. Itis famous for the
+                export of all Knitted garments wears such as T-Shirts , Polo Shirts, Sweat Shirts, Baniyans, Pyjamas and night
+                dresses on Various fabrics like jersey, Interlock, fleece polyester pique, cotton, honey combed, baby pique,
+                shining feather touch etc.Only Tirupur Seperately accounts for 56% India’s Cotton knitwear export. North an
+                estimated Rs. 26000 cores. Tirupur has gained universal recognition as the leading source of Hosiery, Knitted
+                garments, Casual Wears and Sport wear. The city accounts for Major India’s Cotton Knitwear export worth an
+                estimated us $3bn.
+            </p>
+            <p style="padding:2em 5em;text-align: left;">
+                The dramatic transformation of tirupur from domestic market to international market is Mainly attributed to
+                the fact That most of western countries started disbanding their garments Manufacturing due to natural
+                source, pollution and high cost of labour concurrently the Asian tigers Japan, Hong Kong, Taiwan and South
+                Korea Started moving to hi-tech areas thus enabling Tirupur to capitalize the opportunity of penetrating in to
+                the European Market.
+
+            </p>
+
+        </section>
+
+        <section class="vertical-scrolling">
+            <h2 style="margin-bottom: 2em;color: #fff;"> Contact  </h2>
+            <h3 style="padding:2em 5em; text-align: left; color: #fff">
+                Sri Akshayaa Garments <br>
+                26/1 Pichampalayam road,<br>
+                Near Sivan Theatre,<br>
+                Tiruppur-641602<br>
+                Tamil Nadu<br>
+                India.<br>
+            </h3>
+
+            <p style="padding:2em 5em;text-align: left;color: #fff">
+                Email : sriakshayaagarments@gmail.com
+               
+            </p>
+            <div class="card" style="width: 30em;padding: 1.5em;">
+                <h3>Ilam paruthi : +91 9943114286 </h3> 
+                
+            </div>
+            <div class="card" style="width: 30em;padding: 1.5em;">
+                <h3>Vigneshwaran : +91 9944594505  </h3>
+            </div>
+
+        </section>
+
+
+    </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js'></script> -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js'></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> -->
+
+
+    <script src="function.js"></script>
+
 </body>
+
 </html>
