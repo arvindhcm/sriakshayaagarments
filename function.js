@@ -8,12 +8,12 @@ $header_top.find('a').on('click', function() {
 });
  
 $('#fullpage').fullpage({
-  sectionsColor: ['#fff', '#ff5757', '#ff8b20', '#ff5757', '#ffd03c', '#63ACE5' ,'#ff5757' ],
+  sectionsColor: ['#fff', '#ff5757', '#ff8b20', '#ff5757', '#ffd03c', '#63ACE5' ,'#ff5757' ,'#63ACE5','#ff5757' ],
   sectionSelector: '.vertical-scrolling',
   navigation: true,
   slidesNavigation: true,
   controlArrows: false,
-  anchors: ['firstSection', 'secondSection', 'thirdSection', 'fourthSection', 'fifthSection' ,'sixthSection','seventhSection'],
+  anchors: ['firstSection', 'secondSection', 'thirdSection','thirdSection','thirdSection', 'fourthSection', 'fifthSection' ,'sixthSection','seventhSection'],
   menu: '#menu',
  
   afterLoad: function(anchorLink, index) {
@@ -40,6 +40,31 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     // $("html").css("font-size","100%");
     window.dispatchEvent(new Event('resize'));
+
+
+    for(let i=1; i<14; i++){
+      $("#aniimated-thumbnials").append(
+        `<a href="img/`+i+`-min.jpg">
+        <img src="img/`+i+`-min.jpg" />
+        </a>`
+      )
+    }
+
+    for(let i=14; i<28; i++){
+      $("#aniimated-thumbnials2").append(
+        `<a href="img/`+i+`-min.jpg">
+        <img src="img/`+i+`-min.jpg" />
+        </a>`
+      )
+    }
+    for(let i=28; i<40; i++){
+      $("#aniimated-thumbnials3").append(
+        `<a href="img/`+i+`-min.jpg">
+        <img src="img/`+i+`-min.jpg" />
+        </a>`
+      )
+    }
+    
 
 }, false);
 
