@@ -33,13 +33,6 @@ $('#fullpage').fullpage({
 });
 
 document.addEventListener("DOMContentLoaded", function(event) {
-    // your code goes here
-    lightGallery(document.getElementById('aniimated-thumbnials'), {
-        thumbnail:true
-    }); 
-
-    // $("html").css("font-size","100%");
-    window.dispatchEvent(new Event('resize'));
 
 
     for(let i=1; i<14; i++){
@@ -64,6 +57,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
         </a>`
       )
     }
+
+
+        // your code goes here
+        lightGallery(document.getElementById('aniimated-thumbnials'), {
+          thumbnail:true
+      }); 
+  
+      // $("html").css("font-size","100%");
+      window.dispatchEvent(new Event('resize'));
+  
     
 
 }, false);
