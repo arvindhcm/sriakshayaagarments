@@ -62,6 +62,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
         lightGallery(document.getElementById('aniimated-thumbnials'), {
           thumbnail:true
       }); 
+              // your code goes here
+              lightGallery(document.getElementById('aniimated-thumbnials2'), {
+                thumbnail:true
+            }); 
+                    // your code goes here
+        lightGallery(document.getElementById('aniimated-thumbnials3'), {
+          thumbnail:true
+      }); 
   
       // $("html").css("font-size","100%");
       window.dispatchEvent(new Event('resize'));
