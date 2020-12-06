@@ -1,5 +1,4 @@
 
-// Code By Webdevtrick ( https://webdevtrick.com )
 var $header_top = $('.header-top');
 var $nav = $('nav');
  
