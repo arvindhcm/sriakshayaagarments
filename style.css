@@ -245,9 +245,10 @@ p{
 @media only screen and (max-device-width: 480px){
 
         
-    #aniimated-thumbnials img{
+    .aniimated-thumbnials img{
         width:7em;
-    }
+	}
+
 
      .styles-card .card{
        
